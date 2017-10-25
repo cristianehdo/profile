@@ -1,0 +1,65 @@
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  color: rgb(50, 50, 50);
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: rgba(50, 50, 50, 0.9);
+}
+
+p {
+  font-size: 18px
+  text-align: justify;
+  letter-spacing: 2;
+  line-height: 2;
+  padding: 20px 40px;
+}
+
+table {
+  width: 144px;
+  padding: 5 10;
+  margin: 0 auto;
+}
+
+.card-white {
+  color: rgb(50, 50, 50);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 3px;
+  width: 600px;
+  box-shadow: 1px 1px #babadf;
+}
+
+#social-media > ul > li > a {
+  color: rgba(50, 50, 50, 0.9);
+  text-decoration: none;
+  font-size: 40px;
+}
+
+#social-media > ul > li > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.img_circle {
+  border-radius: 50%;
+  width: 130px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
