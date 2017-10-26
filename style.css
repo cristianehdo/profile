@@ -1,8 +1,7 @@
 
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  background-image: url("images/background.jpg");
-  background-size: cover;
+  background-color: white;
   color: rgb(50, 50, 50);
 }
 h1 {
@@ -28,14 +27,15 @@ table {
 }
 
 .container {
-  width: 700px;
+  width: 850px;
   margin: 0 auto;
+  position: relative;
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 750px;
   }
 }
 @media (max-width: 720px) {
@@ -54,11 +54,11 @@ table {
 .card-white {
   color: rgb(50, 50, 50);
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255);
   margin: 40px auto;
   padding: 20px;
   border-radius: 3px;
-  width: 600px;
+  width: 800px;
   box-shadow: 1px 1px #babadf;
 }
 
@@ -87,27 +87,53 @@ table {
   padding: 0px 20px;
 }
 
-#sidebar {
-  width: 120px;
-  height: 100%;
-  position: fixed;
-  top: 40;
-  left: 0;
+.btn-blue {
+  background-color: #234B6C;
+  color: white;
+  font-size: 16px;
+  padding: 10 15;
+  border-radius: 7px;
+  text-decoration: none;
+}
+.btn-blue:hover {
+  text-decoration: underline;
+}
+#navbar {
+  width: 280px;
+  height: 30px;
+  position: relative;
+  left: 519px;
+  top: -14px;
   background-color: rgba(255, 255, 255, 0.2);
-  display: block;
-  font-size: 35px;
+  font-size: 18px;
   line-height: 2;
   border-radius: 3px;
 }
 
-#sidebar > ul {
+#navbar > ul {
   list-style-type: none;
 }
 
-#sidebar > ul > li > a {
+#navbar > ul > li > a {
+  text-decoration: none;
   color: rgba(50, 50, 50, 0.9);
 }
 
-#page-content {
+#navbar > ul > li > a:hover {
+text-decoration: underline;
+}
 
+#presentation {
+  position: relative;
+  top: -534px;
+  height: 500px;
+}
+
+#blue-box-design {
+  background-color: #234B6C;
+  width: 400px;
+  height: 650px;
+  position: relative;
+  top: 100px;
+  left: 590px;
 }
