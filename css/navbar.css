@@ -1,0 +1,22 @@
+#navbar {
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  right: -15px;
+  top: 30px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+#navbar > ul {
+  list-style-type: none;
+}
+
+#navbar > ul > li > a {
+  text-decoration: none;
+  color: #234B6C;
+}
+
+#navbar > ul > li > a:hover {
+text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.btn-blue {
+  background-color: #234B6C;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  text-decoration: none;
+  width: 162px;
+  position: absolute;
+  bottom: 15px;
+  left: 348px;
+}
+.btn-blue:hover {
+  text-decoration: underline;
+}

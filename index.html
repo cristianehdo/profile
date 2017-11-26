@@ -2,49 +2,109 @@
   <head>
     <title>Portifolio Page</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans+Condensed:300,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container" id="page-content">
-      <div id="blue-box-design"></div>
-      <div class="card-white" id="presentation">
-        <div id="navbar">
-          <ul class="list-inline">
-            <li><a href="#presentation">Bio</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#social-media">Contact me</a></li>
-          </ul>
+    <div class="my-container">
+      <div class="main">
+        <div id="blue-box-design"></div>
+        <div class="card-main" id="#bio">
+          <div id="navbar">
+            <ul class="list-inline">
+              <li><a href="#bio">Bio</a></li>
+              <li><a href="#projects">Projects</a></li>
+               <li><a href="https://www.linkedin.com/in/cristiane-de-oliveira-ab487411b/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="presentation">
+            <div>
+              <div class="header">
+                <img src="images/fotoperfil.jpeg" alt="profil photo" class="image-circle">
+                <div>
+                  <h2>Cristiane de Oliveira</h2>
+                  <h4>FullStack Web Developer</h4>
+                </div>
+              </div>
+              <div>
+                <p>Since I opened my own business two years ago, got involved with the development of my website and everything that involves it (SEO, mailchimp, design), I find myself increasingly interested in web product development. After 9 weeks at Le Wagon Bootcamp I have a lot of projects brewing in my head and waiting for an opportunity to be developed. Always thinking about some software to solve daily problems or automate something.</p>
+                <p>I am able to develop full stack web product with Ruby on Rails, passionate about developing interactive UIs with JavaScript and I also have experience with Linux System. Today I’m looking for the opportunity to join a company where I may contribute to a project that I believe in. Searching for a collaborative work environment with new challenges everyday. I would like to have opportunities to learn new tools and for professional growth - repetitive work with ready-made solutions or just unchallenging would discourage me quickly. </p>
+                <p>On sundays I like to take my dog to the park, meet my friends to a picnic, play basketball or football and  two big passions: cycling and music. I love all kinds of bicycles (mainly fixies) and would love to go more often to cycling trips through europe; I play guitar and flute and I’ll start trumpet soon. I also have Sport Science master’s degree.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <img src="images/fotoperfil.jpeg" alt="profil photo" class="img_circle">
-        <h1>Cristiane Helena</h1>
-        <h2>FullStack Developer</h2>
-        <p>Developer with skills on software engineering and database architecture. Experienced on collaboration on Github and technical workflow tools like Heroku, Stripe, Mandrill, Algolia to deploy your app and integrate advanced features (payment, geolocation, mailing, search, etc...) </p>
-        <a href="" class="btn-blue">Download Resumé</a>
       </div>
-      <div class="card-white" id="social-media">
-        <ul class="list-inline">
-          <li><a href="https://github.com/cristianehdo" target="_blank"> <i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.facebook.com/cristianedeoliveira" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-      <div class="card-white">
-        <h2 id="projects">Projects</h2>
-        <table>
-          <tr>
-            <td><a href="https://github.com/cristianehdo?tab=repositories" target="_blank">Project #1</a></td>
-            <td><a href="https://github.com/cristianehdo?tab=repositories" target="_blank">Project #2</a></td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/cristianehdo?tab=repositories" target="_blank">Project #3</a></td>
-            <td><a href="https://github.com/cristianehdo?tab=repositories" target="_blank">Project #4</a></td>
-          </tr>
-        </table>
-      </div>
-      <div>
-
+      <div class="main">
+        <div id="blue-box-design"></div>
+        <div class="card-main">
+          <div class="projects">
+            <h2 id="projects">Projects</h2>
+            <div class="cards">
+              <div class="card-with-link">
+                <div class="card">
+                  <div class="card-contenu">
+                    <div class="card-category">Ruby on Rails</div>
+                    <div class="card-description">
+                      <h2>Pet Boom</h2>
+                      <p>one-week project using geocoder api to show dynamic map and search by location and service's category</p>
+                    </div>
+                  </div>
+                  <img class="card-image" src="images/petBoom.jpg">
+                </div>
+                <a class="card-link" href="https://pet-boom-london.herokuapp.com" target="_blank">See more</a>
+              </div>
+              <div class="card-with-link">
+                <div class="card">
+                  <div class="card-contenu">
+                    <div class="card-category">JavaScript</div>
+                    <div class="card-description">
+                      <h2>Simon Game</h2>
+                      <p>one-day project game. Built only for fun on the weekend</p>
+                    </div>
+                  </div>
+                  <img class="card-image" src="images/simonGame.png">
+                </div>
+                <a class="card-link" href="https://cristianehdo.github.io/simon-game/" target="_blank">See more</a>
+              </div>
+              <div class="card-with-link">
+                <div class="card">
+                  <div class="card-contenu">
+                    <div class="card-category">JavaScript</div>
+                    <div class="card-description">
+                      <h2>Local Wheather</h2>
+                      <p>Project from Free Code Camp front-end curriculum</p>
+                    </div>
+                  </div>
+                  <img class="card-image" src="images/localweather.png">
+                </div>
+                <a class="card-link" href=" https://cristianehdo.github.io/local-weather/" target="_blank">See more</a>
+              </div>
+              <div class="card-with-link">
+                <div class="card">
+                  <div class="card-contenu">
+                    <div class="card-category">JavaScript</div>
+                    <div class="card-description">
+                      <h2>Wiki Viewer</h2>
+                      <p>Project from Free Code Camp front-end curriculum</p>
+                    </div>
+                  </div>
+                  <img class="card-image" src="images/wiki.png">
+                </div>
+                <a class="card-link" href=" https://cristianehdo.github.io/wikiviewer/" target="_blank">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-social-media">
+            <ul class="list-inline">
+              <li><a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/cristianehdo" target="_blank"> <i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/cristianedeoliveira" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
