@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="my-container">
+    <div class="my-container" id="presentation">
       <div class="main">
         <div id="blue-box-design"></div>
-        <div class="card-main" id="#bio">
-          <div id="navbar">
-            <ul class="list-inline">
-              <li><a href="#bio">Bio</a></li>
-              <li><a href="#projects">Projects</a></li>
-               <li><a href="https://www.linkedin.com/in/cristiane-de-oliveira-ab487411b/" target="_blank">LinkedIn</a></li>
-            </ul>
+        <div class="card-main">
+          <div class="my-navbar" id="navbar">
+            <div class="navbar-menu">
+              <a href="#presentation">Bio</a>
+              <a href="#projects">Projects</a>
+              <a href="https://www.linkedin.com/in/cristiane-de-oliveira-ab487411b/" target="_blank">LinkedIn</a>
+            </div>
           </div>
           <div class="presentation">
             <div>
@@ -40,56 +40,58 @@
       </div>
       <div class="main">
         <div class="card-main">
-          <div class="projects text-center" id="projects">
+          <div class="projects" id="projects">
             <h2 >Projects</h2>
             <div class="cards">
-              <div class="card-with-link one">
-                <div class="card">
-                  <img class="card-image" src="images/petBoom.jpg">
-                  <a class="card-link" href="https://pet-boom-london.herokuapp.com" target="_blank"><div class="card-contenu">
-                    <div class="card-category">Ruby on Rails</div>
-                    <div class="card-description">
-                      <h2>Pet Boom</h2>
-                      <p>one-week project using geocoder api to show dynamic map and search by location and service's category</p>
-                    </div>
-                  </div></a>
-                </div>
+              <div class="card one">
+                <img class="card-image" src="images/wechef.png">
+                <a class="card-link" href="https://wechefapp.com" target="_blank"><div class="card-contenu">
+                  <div class="card-category">Ruby on Rails</div>
+                  <div class="card-description">
+                    <h4>We Chef</h4>
+                    <p>Two-weeks project where the user can search a chef by avaiability and experience and book  a service paying with stripe</p>
+                  </div>
+                </div></a>
               </div>
-              <div class="card-with-link two">
-                <div class="card">
-                  <img class="card-image" src="images/simonGame.png">
-                  <a class="card-link" href="https://cristianehdo.github.io/simon-game/" target="_blank"><div class="card-contenu">
-                    <div class="card-category">JavaScript</div>
-                    <div class="card-description">
-                      <h2>Simon Game</h2>
-                      <p>one-day project game with responsive design. Built only for fun on the weekend</p>
-                    </div>
-                  </div></a>
-                </div>
+              <div class="card  two">
+                <img class="card-image" src="images/petBoom.jpg">
+                <a class="card-link" href="https://pet-boom-london.herokuapp.com" target="_blank"><div class="card-contenu">
+                  <div class="card-category">Ruby on Rails</div>
+                  <div class="card-description">
+                    <h4>Pet Boom</h4>
+                    <p>one-week project using geocoder api to show dynamic map and search by location and service's category</p>
+                  </div>
+                </div></a>
               </div>
-              <div class="card-with-link three">
-                <div class="card">
-                  <img class="card-image" src="images/localweather.png">
-                  <a class="card-link" href=" https://cristianehdo.github.io/local-weather/" target="_blank"><div class="card-contenu">
-                    <div class="card-category">JavaScript</div>
-                    <div class="card-description">
-                      <h2>Local Wheather</h2>
-                      <p>Project from Free Code Camp front-end curriculum</p>
-                    </div>
-                  </div></a>
-                </div>
+              <div class="card three">
+                <img class="card-image" src="images/localweather.png">
+                <a class="card-link" href=" https://cristianehdo.github.io/local-weather/" target="_blank"><div class="card-contenu">
+                  <div class="card-category">JavaScript</div>
+                  <div class="card-description">
+                    <h4>Local Wheather</h4>
+                    <p>One day proeject show the whether by your location</p>
+                  </div>
+                </div></a>
               </div>
-              <div class="card-with-link four">
-                <div class="card">
-                  <img class="card-image" src="images/wiki.png">
-                  <a class="card-link" href=" https://cristianehdo.github.io/wikiviewer/" target="_blank"><div class="card-contenu">
-                    <div class="card-category">JavaScript</div>
-                    <div class="card-description">
-                      <h2>Wiki Viewer</h2>
-                      <p>Project from Free Code Camp front-end curriculum</p>
-                    </div>
-                  </div></a>
-                </div>
+              <div class="card four">
+                <img class="card-image" src="images/simonGame.png">
+                <a class="card-link" href="https://cristianehdo.github.io/simon-game/" target="_blank"><div class="card-contenu">
+                  <div class="card-category">JavaScript</div>
+                  <div class="card-description">
+                    <h4>Simon Game</h4>
+                    <p>One-day project game developed usig JavaScript with responsive design.</p>
+                  </div>
+                </div></a>
+              </div>
+              <div class="card five">
+                <img class="card-image" src="images/wiki.png">
+                <a class="card-link" href=" https://cristianehdo.github.io/wikiviewer/" target="_blank"><div class="card-contenu">
+                  <div class="card-category">JavaScript</div>
+                  <div class="card-description">
+                    <h4>Wiki Viewer</h4>
+                    <p>One day project show results from Wikipedia API using AJAX</p>
+                  </div>
+                </div></a>
               </div>
             </div>
           </div>
@@ -103,5 +105,6 @@
         </div>
       </div>
     </div>
+    <script type="application/javascript" src="javascript/navbar.js"></script>
   </body>
 </html>

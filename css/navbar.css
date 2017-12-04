@@ -1,22 +1,33 @@
-#navbar {
-  width: 250px;
-  height: 30px;
-  position: absolute;
-  right: -15px;
-  top: 30px;
+.my-navbar {
+  width: 100%;
+  height: 55px;
   font-size: 18px;
-  line-height: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
 }
 
-#navbar > ul {
-  list-style-type: none;
-}
 
-#navbar > ul > li > a {
+.my-navbar a {
   text-decoration: none;
   color: #234B6C;
 }
 
-#navbar > ul > li > a:hover {
+.my-navbar a:hover {
 text-decoration: underline;
+}
+
+.navbar-menu {
+  width: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  right:  527px;
+  z-index: 999;
 }
